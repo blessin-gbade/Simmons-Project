@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<header id="header">
+    <div class="topper">
+        <div class="logotemplate">
+            <img id="header-img"
+                src="https://image.shutterstock.com/image-vector/bridal-wear-logo-template-wedding-260nw-1506320048.jpg"
+                alt="a wedding dress" />
+            <div>
+                <h5>Bridal Boutique by Blessing</h5>
+            </div>
+        </div>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#Catalog">Catalog</a>
+            <a class="nav-link" href="#Contact_Us">Contact Us</a>
+            <a class="nav-link" href="#Payment_methods">Payment methods</a>
+        </nav>
+    </div>
+</header>
+
+<body>
+
+    <section id="Catalog">
+        <div class="prices">
+            <img class="img1" src="https://i.pinimg.com/564x/14/9c/e1/149ce1c79be4020f72cfc9ef8474a88f.jpg"
+                alt="image not found" />
+            <p class="dressprice">Mermaid dress: $10,000</p>
+            <button class="button">Add to cart</button>
+        </div>
+        <div class="prices">
+            <img class="img1"
+                src="https://perfete.com/wp-content/uploads/2016/10/Imani-Swank-Custom-Dress_-Nigerian-Bridal-Designers-683x1024.jpg"
+                alt="image not found" />
+            <p class="dressprice">Ball gown dress: $15,000</p>
+            <button class="button">Add to cart</button>
+        </div>
+        <div class="prices">
+            <img class="img1" src="https://i.pinimg.com/originals/f8/38/ac/f838ac46eb3eb6ab2a15d44a75490049.jpg"
+                alt="image not found" />
+            <p class="dressprice">Long sleeve dress: $8,000</p>
+            <button class="button">Add to cart</button>
+        </div>
+        <div class="prices">
+            <img src="https://loveweddingsng.com/wp-content/uploads/2021/06/20-High-Neck-Wedding-Dresses-for-Nigerian-African-Brides-LoveWeddingsNG-3.png"
+                alt="image not found" class="img1" />
+            <p class="dressprice">High neck dress: $12,000</p>
+            <button class="button">Add to cart</button>
+        </div>
+
+    </section>
+    <br>
+    <section id="Contact_Us">
+        <p>To place an order, contact us at:</p>
+        <p>Email: bridalwearsbyblessing@gmail.com</p>
+    </section>
+    <section id="Payment_methods">
+        <p>You can pay in cash at any of our stores nearest to you. You can also pay by card to 1234567890 UBA (Name:
+            Bridal
+            wears by Blessing)
+            Please note that we have a non-refund policy.
+        </p>
+        <p>For more inquiries or suggestions, please fill this survery form.</p>
+    </section>
+    <footer>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <label for="name">Name: <input type="text" id="name" placeholder="Lauren Black" required></input></label>
+            <br>
+            <label for="email">Email: <input type="email" name="email" id="email" placeholder="e.g marryme@yahoo.com"
+                    required></input></label>
+            <br>
+            <textarea name="text" id="textarea" placeholder="Ask away" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" id="submit"></input>
+        </form>
+
+        <hr class="end">
+    </footer>
+</body>
+
+</html>
+
+* {
+box-sizing: border-box;
+margin: O;
+padding: 0;
+}
+
+#header {
+background-color: rgb(33, 33, 179);
+margin: 0;
+}
+
+img {
+width: 70px;
+}
+
+div h5 {
+font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+"Lucida Sans", Arial, sans-serif;
+display: inline;
+font-size: 20px;
+margin-top: 30px;
+color: #ffffff;
+font-size: 30px;
+}
+
+.logotemplate {
+padding-left: 20px;
+padding-top: 30px;
+}
+
+#nav-bar {
+display: flex;
+justify-content: end;
+gap: 30px;
+padding-inline-end: 10px;
+padding-block: 10px;
+flex-wrap: wrap;
+align-self: flex-end;
+padding: 10px 20px;
+}
+
+body {
+background-color: rgb(63, 134, 205);
+width: 100%;
+}
+
+#Catalog {
+margin: 50px 10px;
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+textarea {
+margin-top: 10px;
+resize: none;
+border: rgb(63, 134, 205);
+background-color: #78a2fc;
+}
+
+.img1 {
+width: 300px;
+height: 400px;
+border-radius: 50px;
+}
+
+.prices:hover {
+border: 2px solid #20058e;
+padding: 10px;
+}
+
+.button {
+padding: 10px;
+border-radius: 50px;
+border: rgb(63, 134, 205);
+outline: 0;
+margin: 5px 0px 20px 70px;
+background-color: #2cb5e7;
+}
+
+#nav-bar a {
+font-size: 20px;
+text-decoration: none;
+color: black;
+}
+
+.dressprice {
+font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#Contact_Us p {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 10px;
+}
+
+#Payment_methods p {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 10px;
+}
+
+#nav-bar a:hover {
+color: rgb(135, 161, 239);
+}
+
+form {
+margin-left: 10px;
+}
+
+label {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#submit {
+border: rgb(63, 134, 205);
+padding: 10px;
+margin: 10px 0 10px 240px;
+border-radius: 30px;
+background-color: #2cb5e7;
+}
+
+#Payment_methods, #Contact_Us {
+margin: 5px;
+}
+
+::placeholder {
+padding-left: 5px;
+}
+
+#name,
+#email {
+background-color: rgb(144, 167, 236);
+border: rgb(63, 134, 205);
+}

@@ -1,0 +1,256 @@
+* {
+box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: #003A70;
+    padding: 10px;
+    min-width: 400px;
+    position: sticky;
+}
+
+#header-wrap {
+   max-width: 1200px;
+   margin: auto;
+}
+
+#top-header {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.simmons {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    font-family: Didot,sans-serif;
+
+}
+
+.university {
+    font-size: 10px;
+     color: white;
+    letter-spacing: 7px;
+     font-family: Didot,sans-serif;
+     margin-left: 2px;
+}
+ #header #header-wrap #top-header #more-info #info-section #simmons-edu li a {
+    font-family: Didot,sans-serif;
+ }
+
+ #header #more-info #info-section li a {
+    color: white;
+}
+
+#for {
+  color: white;
+}
+
+#simmons-edu {
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    display:inline;
+}
+
+#info-section li, #info-section #hidden{
+  display: inline;
+}
+
+
+
+#more-info #info-section li a {
+    text-decoration: none;
+    color: black;
+}
+
+#bottom-navbar {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* margin-left: 60px; */
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.div-box {
+    /* border: 3px solid black; */
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    height: 0px auto;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+/* come back here */
+hr {
+  /* border-bottom: 2px solid #34618B; */
+  /* margin-block: 15px; */
+  /* border: white; */
+ border-top: 1px solid rgb(33, 25, 25);
+ background-color: rgb(33, 25, 25);
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+#cover-photo {
+    width: 100%;
+}
+
+.image:nth-of-type(2) {
+    /* margin-right: -50px; */
+}
+h3 {
+    margin-left: 20px;
+}
+ #section1 {
+    position: relative;
+}
+
+#section1 #bottom-header #button-list {
+   display: flex;
+   gap: 30px;
+   max-width: 85vw;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+}
+
+#section1 #bottom-header {
+    position: absolute;
+    top: 40px;
+    right: 40px;  
+}
+
+ #section1 #bottom-header #button-list li a {
+    background-color: white;
+     text-decoration: none;
+      border: 2px solid #C7D6E5;
+    font-family: Helvetica, serif;
+     font-size: 14px;
+     color: #003A70;
+     padding: 10px 30px;
+ }
+ #section1 #bottom-header #button-list li a:hover {
+    background-color: #C7D6E5;
+ }
+
+.image {
+    width: 50%;
+    /* margin-left: 10px; */
+}
+
+.my-image {
+     width: 50%;
+}
+
+.div-box, .paragraph {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#degree {
+    color: #E6BB00;
+    min-width: 280px;
+}
+
+#degree:hover {
+    color: white;
+}
+
+#bottom-navbar #navbar #other {
+  display: flex;
+}
+
+#other li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#header #top-header #more-info #info-section li a {
+    margin-right: 20px;
+}
+
+#section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11 {
+    display: flex;
+    width: 80%;
+    /* justify-content: center; */
+    max-width: 1800px;
+    margin-bottom: 20px;
+}
+
+ .paragraph, .tradition {
+    padding: 20px;
+    font-size: 12px;
+ }
+
+ .tradition {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+ }
+
+#section2 .overlap1 {
+ 
+}
+
+
+.copyright {
+   margin-left: 30px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media(max-width:700px) {
+ #navbar {
+    display: none;
+ }
+ #info-section {
+    border-bottom: 2px solid #0A60B0;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+ }
+ #simmons-edu {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+ }
+
+
+ #degree {
+  margin-top: -120px;
+  margin-left: 110px;
+  font-size: 15px;
+ }
+
+ .paragraph, .tradition {
+    padding: 10px;
+    font-size: 12px;
+ }
+ 
+ .simmons {
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+ }
+ .university {
+letter-spacing: 3px;
+ }
+
+
+ #info-section #hidden {
+    display: none;
+ }
+ #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11 {
+  flex-wrap: wrap;
+  display: block;
+ }
+}
