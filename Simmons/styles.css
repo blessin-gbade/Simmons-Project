@@ -4,6 +4,13 @@ box-sizing: border-box;
   padding: 0;
 }
 
+.align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 header {
     background-color: #003A70;
     padding: 10px;
@@ -62,7 +69,119 @@ header {
   display: inline;
 }
 
+.align #section2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
 
+.align #section2 .my-image {
+    /* position: relative; */
+    width: 400px;
+}
+/* Introduction */
+.align #section2 .overlap1 {
+    position: relative;
+    left: 26px; 
+    z-index: 200;
+    background-color: white;
+    padding: 140px 69px;
+     margin-top: -20px;
+}
+/* Ranking */
+.align #section3 .overlap2 {
+    position: relative;
+    z-index: 100;
+    right: 30px; 
+    background-color: white;
+    margin-bottom: 18px;
+    margin-top: -20px;
+    padding: 140px 69px;
+}
+/* Curriculum */
+.align #section4 .overlap3 {
+    position: relative;
+    left: 40px; 
+    z-index: 100;
+    background-color: white;
+    margin-top: -20px;
+    padding: 100px 69px;
+    margin-bottom: 18px;
+}
+ 
+/* Honors */
+.align #section5 .overlap4 {
+    position: relative;
+    right: 26px; 
+    z-index: 100;
+    background-color: white;
+    margin-bottom: 18px;
+    margin-top: -20px;
+    padding:  40px 80px 80px 80px;
+}
+/*Founders day  */
+.align #section6 .overlap5 {
+    position: relative;
+    left: 26px; 
+    z-index: 100;
+    background-color: white;
+    margin-top: -20px;
+    padding: 100px 80px 80px 80px;
+    height: 400px;
+}
+
+/* Soiree */
+.align #section7 .overlap6 {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    right: 40px; 
+    margin-bottom: 18px;
+    margin-top: -20px;
+    padding:  120px 80px 80px 80px;
+}
+
+/* Residence life */
+.align #section8 .overlap7 {
+    position: relative;
+    left: 26px; 
+    z-index: 200;
+    background-color: white;
+     margin-bottom: 18px;
+    margin-top: -20px;
+    padding:  120px 80px 80px 80px;
+}
+/* Athletics */
+.align #section9 .overlap8 {
+    position: relative;
+    z-index: 200;
+    background-color: white;
+    right: 20px; 
+    margin-bottom: 18px;
+    margin-top: -20px;
+    padding:  120px 80px 80px 80px;
+}
+/* Aluminus */
+.align #section10 .overlap9 {
+    position: relative;
+    left: 26px; 
+    z-index: 200;
+    background-color: white;
+     background-color: white;
+     margin-bottom: 18px;
+    margin-top: -20px;
+    padding:  120px 80px 80px 80px;
+}
+
+.align #section11 .overlap10 {
+    position: relative;
+    z-index: 200;
+    background-color: white;
+     right: 20px; 
+    margin-bottom: 18px;
+    margin-top: -20px;
+    padding:  120px 80px 80px 80px;
+}
 
 #more-info #info-section li a {
     text-decoration: none;
@@ -83,11 +202,8 @@ ul {
 }
 
 .div-box {
-    /* border: 3px solid black; */
     width: 400px;
-    padding: 10px;
-    margin: 10px;
-    height: 0px auto;
+    max-height: 500px;
     box-shadow: 5px 10px 18px #888888;
 }
 
@@ -96,8 +212,8 @@ hr {
   /* border-bottom: 2px solid #34618B; */
   /* margin-block: 15px; */
   /* border: white; */
- border-top: 1px solid rgb(33, 25, 25);
- background-color: rgb(33, 25, 25);
+ /* border-top: 1px solid rgb(33, 25, 25); */
+ /* background-color: rgb(33, 25, 25); */
  margin-top: 20px;
  margin-bottom: 20px;
 }
@@ -106,15 +222,14 @@ hr {
     width: 100%;
 }
 
-.image:nth-of-type(2) {
-    /* margin-right: -50px; */
-}
+
 h3 {
     margin-left: 20px;
 }
+
  #section1 {
     position: relative;
-}
+} 
 
 #section1 #bottom-header #button-list {
    display: flex;
@@ -124,11 +239,11 @@ h3 {
    justify-content: flex-end;
 }
 
-#section1 #bottom-header {
+ #section1 #bottom-header {
     position: absolute;
     top: 40px;
     right: 40px;  
-}
+} 
 
  #section1 #bottom-header #button-list li a {
     background-color: white;
@@ -185,26 +300,46 @@ h3 {
     width: 80%;
     /* justify-content: center; */
     max-width: 1800px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-left: 40px;
 }
 
- .paragraph, .tradition {
-    padding: 20px;
+ .paragraph {
+    padding: 20px 20px 0px 20px;
     font-size: 12px;
  }
 
  .tradition {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 5px;
  }
 
-#section2 .overlap1 {
- 
+.website {
+    color:  #0A60B0;
+    text-decoration: none;
 }
 
+.website:hover {
+  color: black;
+}
+
+.click-here {
+    color:#003A70;
+    text-decoration: none;
+}
+
+.click-here:hover {
+    color: black;
+}
+
+.top-hr {
+   display: none;
+}
 
 .copyright {
-   margin-left: 30px;
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -224,10 +359,17 @@ h3 {
     top: 5px;
  }
 
+ .top-hr {
+    display: block;
+ }
+
+ hr {
+  display: none;
+ }
 
  #degree {
   margin-top: -120px;
-  margin-left: 110px;
+  /* margin-left: 10px; */
   font-size: 15px;
  }
 
