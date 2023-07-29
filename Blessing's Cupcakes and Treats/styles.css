@@ -1,0 +1,356 @@
+* {
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-color: #261714;
+}
+
+#navbar{
+    /* background-color: rgb(238, 29, 120); */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(116, 36, 36);
+}
+
+#cover-photo {
+    width: 100%;
+    height: 600px;
+    filter: brightness(60%);
+   object-fit: cover;
+}
+
+#my-image {
+    border-radius: 10px;
+    /* overflow: hidden; */
+    width: 400px;
+    height: 400px;
+}
+
+img {
+    display: block;
+}
+
+h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+#introduction {
+      box-shadow: 20px 20px 50px grey;
+      padding: 50px;
+      max-width: 300px;
+      height: 300px;
+      /* background-color:  rgb(238, 29, 120); */
+      z-index: 100;
+      position: relative;
+      left: -30px;
+      top:  80px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius:10px 10px 10px 10px;
+      overflow: hidden;
+      margin-bottom: 50px;
+      /* margin-top: 70px; */
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 70px; */
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.cupcake1, .cupcake2, .cupcake3, .cupcake4, .cupcake5, .cupcake6, .cupcake7, .cupcake8, .cupcake9 {
+   width: 300px;
+   height: 300px;
+}
+
+#section {
+    margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 110px;
+}
+
+
+#section1, #section2, #section3,  #section4,  #section5,  #section6, #section7, #section8, #section9 {
+   width: 300px;
+   /* border: 1px solid black; */
+   /* height: 473px; */
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+figcaption {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: white;
+ font-size: 20px;
+ color: black;
+ padding: 20px 10px;
+ font-size: 14px;
+ min-height: 80px;
+}
+
+.cake {
+    border-radius: 10px;
+}
+
+#section10, #section11, #section12, #section13, #section14 {
+      /* border-radius: 10px; */
+       overflow: hidden;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+     /* margin-bottom: 20px; */
+      /* width: 300px; */
+      /* margin-left: 363px; */
+}
+
+
+.flex {
+     /* background-color: rgb(246, 127, 188); */
+       padding: 50px 20px;
+       /* width: 100vw;  */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+.flex1, .flex2, .flex3, .flex4 {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 300px; */
+     /* margin-left: 363px; */
+   margin-top: 20px;
+}
+
+.ten {
+   width: 780px;
+ /* margin-left: 363px; */
+ margin: auto;
+ height: 20px;
+ border-radius: 0px 0px 10px 10px;
+ overflow: hidden;
+ background-color: whitesmoke;
+ font-size: 20px;
+ color: black;
+ padding: 20px 10px;
+ font-size: 14px;
+ text-align: center;
+}
+
+.eleven, .twelve, .thirteen, .fourteen {
+    width: 780px;
+   /* margin-left: 460px; */
+ /* margin-top: -20px; */
+  margin: auto;
+ height: 20px;
+ border-radius: 0px 0px 10px 10px;
+ overflow: hidden;
+ background-color: whitesmoke;
+ font-size: 20px;
+ color: black;
+ padding: 20px 10px;
+ font-size: 14px;
+}
+
+ video {
+    border-radius: 0px 10px 0px 0px;
+    overflow: hidden;
+ }
+
+.cake10, .cake11, .cake13, .cake15, .cake17 {
+  border-radius: 10px 0px 0px 0px;
+  overflow: hidden;
+   gap: 0px;
+}
+
+.cake12, .cake14, .cake16, .cake18 {
+  border-radius: 0px 10px 0px 0px;
+  overflow: hidden;
+}
+
+h4 {
+   font-family: cursive;
+   /* border: 2px solid rgb(238, 29, 120); */
+   /* background-color:  rgb(238, 29, 120); */
+   background-color: rgb(106, 18, 18);
+   width: 150px;
+   position: relative;
+   z-index:100;
+   top: 90px;
+   margin-left: 20px;
+   color: white;
+   padding-left: 10px;
+}
+
+
+.copyright {
+    font-family: cursive;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: hotpink ; */
+}
+
+.mail, .instagram {
+    position: relative;
+    z-index: 100;
+   top: 100px;
+   margin-left: 20px;
+    margin-top: 20px;
+}
+
+.copy {
+ margin-left: 700px;
+}
+
+#footer-image {
+    height: 500px;
+    width: 100%;
+    opacity: 0.5;
+   
+}
+
+@media (max-width: 500px) {
+
+    html, body {
+        overflow-x: hidden;
+        /* background: red; */
+        width: 100vw;
+    }
+
+   #section1, #section2, #section3,#section4,#section5, #section6,#section7,#section8,#section9 {
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        gap: 50px;
+      
+    }
+
+    .flexbox {
+        width: 95vw;
+       margin-inline: auto;
+            display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center; 
+    }
+
+    #section {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        display: block;
+        margin-inline: auto;
+        max-width: 90%;
+         /* display: flex;
+     flex-direction: column;
+    align-items: center; */
+    }
+
+    #cover-photo {
+    width: 100%;
+    height: 300px;
+    filter: brightness(60%);
+   object-fit: cover;
+}
+
+#my-image {
+   /* margin-bottom: 20px; */
+     border-radius: 0px 0px 0px 0px;  
+     width:initial;
+}
+
+.image {
+  max-width: 100%;
+  margin: auto;
+}
+#introduction {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 100;
+    top: 0px;
+    left: 0;
+    border-radius: 0px 0px 0px 0px;
+    font-size: 12px;
+    height: 120px;
+    /* top: -15px; */
+    /* position: relative; */
+    padding: 50px;
+    /* margin-top: 40px; */
+}
+
+.cupcake1, .cupcake2, .cupcake3, .cupcake4, .cupcake5, .cupcake6, .cupcake7, .cupcake8, .cupcake9 {
+   width: 100%;
+   height: 260px;
+   /* display: block; */
+     border-radius: 0px 0px 0px 0px;
+
+}
+
+
+figcaption {
+    min-height: auto;
+      border-radius: 0px 0px 10px 10px;
+}
+
+
+
+.flex1, .flex2, .flex3, .flex4 {
+    width: 95vw;
+    overflow: hidden;
+    margin: auto;
+     margin-bottom: 10px;
+}
+
+.flex {
+    width: 95vw;
+    /* display: flex;
+    flex-direction: column;
+   justify-content: center; */
+   overflow: hidden; 
+   margin: auto;
+   padding: 0px;
+   margin-bottom: 10px;
+}
+
+.cake10, .cake11, .cake13, .cake15, .cake17, .cake12, .cake14, .cake16, .cake18 {
+    border-radius: 0px;
+     width: 200px;
+   height: 220px;
+}
+
+video {
+      width: 200px;
+     height: 220px;
+    border-radius: 0px 0px 0px 0px;
+}
+.ten {
+   width: 380px;
+   max-width: 100%;
+}
+
+.eleven, .twelve, .thirteen, .fourteen {
+    max-width: 100%;
+}
+} 
